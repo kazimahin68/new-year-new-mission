@@ -39,7 +39,133 @@
     font-size: 20px;
     color: #FFFFFF;
     border: none;
+    padding: 20px 25px;
 }
 
 /* main section styles */
 
+/* Both achievement and failure section or bumpy section style */
+.bumpy {
+    display: flex;
+    gap: 90px;
+    margin: 130px 0;
+    justify-content: center;
+}
+
+.bumpy-content {
+    align-items: center;
+    text-align: left;
+    width: 420px;
+    margin-top: 200px;
+}
+
+.bumpy-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.bumpy-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.bumpy-list {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+.bumpy-list li {
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+
+.bumpy ul li:before {
+    content: '\1F5F8';
+    color: green;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.bumpy-image {
+    width: 550px;
+    height: 700px;
+}
+
+/* Future plan section style */
+.plans-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    gap: 85px;
+}
+
+.plan {
+    text-align: center;
+}
+
+.plan-icon {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 25px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-bottom: 16px;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* Contact section styles */
+
+.contact {
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 130px 230px;
+    
+    border-radius: 8px;
+}
+
+.contact-item {
+    padding: 64px;
+    text-align: left;
+}
+
+.contact-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    width: 450px;
+    margin-bottom: 25px;
+}
+
+.contact-btn {
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    border: none;
+    padding: 20px 35px;
+}

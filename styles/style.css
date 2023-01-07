@@ -142,7 +142,6 @@
     background-repeat: no-repeat;
     background-position: center;
     margin: 130px 230px;
-    
     border-radius: 8px;
 }
 
@@ -160,6 +159,85 @@
 }
 
 .contact-btn {
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    border: none;
+    padding: 20px 35px;
+}
+
+/* Footer styles */
+
+.footer {
+    background: #151414
+}
+
+.footer-content {
+    display: flex;
+}
+
+.futute,
+.form {
+    padding: 130px 230px;
+}
+
+.futute {
+    width: 485px;
+}
+
+.future-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 24px;
+}
+
+.future-description,
+.email,
+.phone {
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 16px;
+}
+
+.form {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.form-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.form-mail {
+    background: none;
+    border: #F8F8F8;
+    border-radius: 5px;
+    padding: 20px;
+    height: 64px;
+    width: 325px;
+    border-style: solid;
+    margin-bottom: 16px;
+}
+
+.form input::placeholder {
+    color: #F3F3F3;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.form-btn {
     height: 64px;
     background: #FFFFFF;
     border-radius: 5px;
